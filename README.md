@@ -66,6 +66,15 @@ cd OOTDiffusion/run
 python run_ootd.py --model_path <人物图像路径> --cloth_path <服装图像路径> --model_type dc --category 2
 ```
 
+## WebUI
+
+```sh
+cd OOTDiffusion/run
+python gradio_ootd.py
+```
+
+![webui](./images/webui.jpg)
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Marquis03/OOTDiffusion&type=Date)](https://star-history.com/#Marquis03/OOTDiffusion&Date)
